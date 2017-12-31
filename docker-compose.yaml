@@ -2,6 +2,6 @@ version: "3"
 services:
   cold_wallet:
     image: ripple_coldwallet:latest
-    build: docker/ripple_coldwallet
+    build: .
     working_dir: /usr/src/app
-    command: ["node", "coldwallet.js"]
+    command: ["npm", "run", "generate"]

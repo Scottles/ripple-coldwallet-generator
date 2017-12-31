@@ -1,0 +1,19 @@
+{
+  "name": "ripple-coldwallet-generator",
+  "version": "0.0.1",
+  "description": "Ripple Cold Wallet Generator",
+  "main": "coldwallet.js",
+  "scripts": {
+    "generate": "node coldwallet.js"
+  },
+  "author": "",
+  "license": "GPL-2.0",
+  "homepage": "https://github.com/Scottles/ripple-coldwallet-generator#readme",
+  "repository" :
+    { "type" : "git",
+      "url" : "https://github.com/Scottles/ripple-coldwallet-generator.git"
+    },
+  "dependencies": {
+      "ripple-keypairs": "^0.10.1"
+  }
+}
